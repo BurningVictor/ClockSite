@@ -8,7 +8,7 @@ function mudaHora() {
     var noi = window.document.querySelector('img#manha')
     var tar = window.document.querySelector('img#tarde')
     var man = window.document.querySelector('img#noite')
-
+    /*var hora = 19*/
     qh.innerHTML = `Agora são ${hora} horas...`
 
     if (hora>=0 && hora<12) {
